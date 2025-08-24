@@ -31,3 +31,79 @@
 .header-img-title-color{
     color: #E95A08;
 }
+/* main style */
+
+
+
+.plants-item-contener{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    margin-top: 50px;
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+}
+.plants-contener{
+    align-items: center;}
+ .plant-item{
+    border:5px  solid white;
+ }
+ .plant-hhh{
+    text-align: center;
+    font-size: 50px;
+    
+ }
+ .plant-ppp{
+    text-align: center;
+ }
+ .plant-buy{
+    border-radius: 2px;
+    border: 2px solid ;
+    background-color: #E95A08;
+    color: aliceblue;
+    font-size: 16px;
+    padding: 0px 25px 0px 25px;
+    
+ }
+
+/* Responsive design */
+@media screen and (max-width:576px) 
+    .header-contenr{
+      width: 100%;
+      margin-top:5px ;
+        display: flex;
+        flex-direction: column-reverse;
+        
+       
+       
+
+    }
+    .header-img{
+        width: 100%;
+    }
+    .header-contenr-img{
+        
+        width: 100%;
+        
+    }
+    .header{
+           margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+         
+    
+      
+          
+    }
+    .nav-link{
+        display: none;
+    }
+    .header-text-2{
+        font-size: 24px;
+    }
+    .header-link{
+   
+    margin-top: 1px;
+    gap: 5px;
+}
