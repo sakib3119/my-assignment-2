@@ -403,14 +403,48 @@
    font-size: 30px;
    margin-bottom: 20px;
  }
+ .icon{
+   display: flex;
+   flex-direction:column ;
+    grid-template-columns: repeat(1, 1fr); 
+   margin-left: 1px;
+ }
+ .icon-main{
+   margin-left: 1px;
+ }
 
 
 
+
+ .icon-item{
+   margin-left:1px;
+ }
+ .icon-title{
   
-
-
-
-   
+   margin-left:1px ;
+  
+ }
+ .icon-p{
+   color: #8987A1;
+   font-size: 16px;
+ }
+ .icon-main{
+   margin-left: 1px;
+ }
+ .icon-item{
+   margin-left:10px;
+ }
+ .icon-div{
+   display: flex;
+   flex-direction: column;
+ }
+ .icon-item{
+   margin-left: 50px;
+ }
+ .icon-main{
+   border: 1px solid whitesmoke;
+ }
+ 
 }
 
 
