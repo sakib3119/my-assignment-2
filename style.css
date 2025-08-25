@@ -1,5 +1,5 @@
  /* header style */
- header{
+ .header{
     margin-left: 150px;
     margin-right: 150px;
     margin-top: 53.5px;
@@ -65,45 +65,132 @@
     padding: 0px 25px 0px 25px;
     
  }
+ .follower-contenr{
+   display: flex;
+   margin-top: 150px;
+   border: 1px solid rgb(245, 242, 242);
+   margin-left: 150px;
+   margin-right: 150px;
+   margin-bottom: 100px;
+
+ }
+ .follower-style{
+   position: relative;
+  
+
+ }
+ .follower-poto-2{
+   width: 540px;
+   height: 500px;
+  
+   
+ }
+ .follower-poto-1{
+   width: 286px;
+   height: 286px;
+   position: absolute;
+   top: -130px;
+   left: 136px;
+   
+  
+
+ }
+ .follower-text{
+   margin-left: 100px;
+ }
+ .follower-title{
+   font-size: 60px;
+   font-weight: 800;
+ }
+ .follower-title-list{
+   font-size: 22px;
+   color: #8987A1;
+   
+   
+ }
+ .follower-list{
+   margin-bottom: 10px;
+ }
+  
+ 
 
 /* Responsive design */
-@media screen and (max-width:576px) 
-    .header-contenr{
+@media screen (max-width:576px) {
+   .header-contenr{
+      display: flex;
+      flex-direction: column-reverse;
+      margin-top: 3px;
+
+     
+   }
+   .nav-link{
+      display: none;
+      
+   }
+   .header-text-2{
+      font-size: 24px;
       width: 100%;
-      margin-top:5px ;
-        display: flex;
-        flex-direction: column-reverse;
+   }
+   ..header-link{
+      margin-top: 1px;
+    gap: 1px;
+
+   }
+   .header{
+       margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 1px;
+    margin-bottom: 40px;
+
+   }
+   .header-link{
+      margin-top: 35px;
+   }
+   .plants-item-contener{
+      display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    margin-top: 2px;
+    margin-right: 4px;
+    margin-left: 4px;
+    margin-bottom: 2px;
+
+   }
+.follower-poto-1{
+   display:none ;
+}
+.follower-contenr{
+   display: flex;
+   flex-direction: column;
+    margin-left: 2px;
+   margin-right: 2px;
+   margin-bottom: 1px;
+   margin-top:50px ;
+}
+. .follower-poto-2{
+    width: 5px;
+   height: 6px;
+  
+
+}
+.follower-text{
+   margin-left: 3px;
+
+}
+ .follower-title{
+   font-size: 34px;
+
+
+}
+}
+
+
         
        
        
 
-    }
-    .header-img{
-        width: 100%;
-    }
-    .header-contenr-img{
-        
-        width: 100%;
-        
-    }
-    .header{
-           margin-left: 5px;
-    margin-right: 5px;
-    margin-top: 2px;
-    margin-bottom: 10px;
-         
     
-      
-          
-    }
-    .nav-link{
-        display: none;
-    }
-    .header-text-2{
-        font-size: 24px;
-    }
-    .header-link{
-   
-    margin-top: 1px;
-    gap: 5px;
-}
+
+
+    
+
+
