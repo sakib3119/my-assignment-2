@@ -98,6 +98,9 @@
  .follower-text{
    margin-left: 100px;
  }
+ .discrount-title-contener{
+   text-align: center;
+ }
  .follower-title{
    font-size: 60px;
    font-weight: 800;
@@ -111,51 +114,145 @@
  .follower-list{
    margin-bottom: 10px;
  }
+ /* discrount-shop-style */
+ .discrount-shop{
+   margin-top: 150px;
+   border: 5px solid white;
+   margin-left: 150px;
+   margin-right: 150px;
+   margin-bottom: 150px;
+ }
+ .discrount-title{
+   font-size: 50px;
+   font-weight: 800;
+
+ }
+ .discrount-span{
+   color: #E95A08;
+
+
+ }
+ .discrount-dis{
+   font-size: 22px;
+   color: #8987A1;
+ }
+ .discrount-shop-contener{
+   display:flex ;
+   text-align: center;
+ }
+ .discrount-shop-poto-1{
+   background-image: url(assets/deal-bloom.png) ;
+   width: 100%;
+   
+   border-radius: 5px solid bisque;
+     background-repeat: no-repeat;
+      padding-top: 20px;
+   padding-bottom: 20px;
+   border: 8px solid whitesmoke;
+   
+ }
+.discrount-shop-poto-2{
+   background-image: url(assets/deal-ana.png);
+   width: 100%;
+   padding-top: 20px;
+   padding-bottom: 20px;
   
+     background-repeat: no-repeat;
+     border: 8px solid whitesmoke;
+} 
+.discrount-shop-poto-3{
+   background-image: url(assets/deal-zabo.png);
+   border: 1px solid bisque;
+   
+   width: 100%;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+    padding-top: 30px;
+   padding-bottom: 20px;
+   
+    
+   
+} 
+.discrount-shop-poto-p{
+   font-size: 20px;
+   font-weight: 800;
+   color: azure;
+}
+.discrount-shop-poto-a{
+   font-size: 16px;
+   font-weight: 500;
+   color: aliceblue;
+}
+.discrount-shop-poto-p-2{
+   font-weight: 800;
+   font-size: 40px;
+   color: aliceblue;
+
+}
+
+
+.discrount-shop-poto-a-2-33{
+   font-weight: 500;
+   font-size:28px;
+   color: aliceblue;
+   margin-top: 40px;
+   gap: 20px;
+}
+
+
  
 
 /* Responsive design */
-@media screen (max-width:576px) {
-   .header-contenr{
-      display: flex;
-      flex-direction: column-reverse;
-      margin-top: 3px;
 
-     
-   }
-   .nav-link{
-      display: none;
+
+@media screen and (max-width:500px)
+ {
+   body{ overflow-x: hidden;
+      
       
    }
-   .header-text-2{
-      font-size: 24px;
-      width: 100%;
-   }
-   ..header-link{
-      margin-top: 1px;
-    gap: 1px;
-
-   }
    .header{
-       margin-left: 5px;
+      margin-left: 5px;
     margin-right: 5px;
     margin-top: 1px;
     margin-bottom: 40px;
 
    }
+  .header-contenr{
+    display: flex;
+      flex-direction: column-reverse;
+      margin-top: 3px;
+
+  }
+  .nav-link{
+   display: none;
+  }
+  
+   .header-text-2{
+      font-size: 24px;
+      width: 100%;
+
+   }
+   .header-link{
+      margin-top: 1px;
+    gap: 1px;
+
+   }
    .header-link{
       margin-top: 35px;
+
    }
-   .plants-item-contener{
-      display: grid;
+    .plants-item-contener{
+         display: grid;
     grid-template-columns: repeat(2 ,1fr);
     margin-top: 2px;
     margin-right: 4px;
     margin-left: 4px;
     margin-bottom: 2px;
 
-   }
-.follower-poto-1{
+    }
+    .follower-poto-1{
    display:none ;
 }
 .follower-contenr{
@@ -166,7 +263,7 @@
    margin-bottom: 1px;
    margin-top:50px ;
 }
-. .follower-poto-2{
+.follower-poto-2{
     width: 5px;
    height: 6px;
   
@@ -176,12 +273,32 @@
    margin-left: 3px;
 
 }
- .follower-title{
+.follower-title{
    font-size: 34px;
 
 
 }
+.discrount-shop{
+   display: flex;
+   flex-direction: columns;
 }
+
+.discrount-shop{
+   display: flex;
+   flex-direction: column;
+   margin-top: 7px;
+   border: 1px solid white;
+   margin-left: 2px;
+   margin-right: 0px;
+   margin-bottom: 2px;
+}
+  
+
+
+
+   
+}
+
 
 
         
